@@ -1,0 +1,38 @@
+Basic Linux Commands 
+
+#To view what's written in a file:
+cat filename
+
+#To change the access permissions of files:
+chmod permissions filename
+Replace permissions with the desired permission settings (e.g., chmod +x filename to give execute permission).
+
+#To check which commands you have run till now:
+history
+
+#To remove a directory/Folder:
+rmdir directoryname
+or
+rm -r directoryname
+Use the -r option to remove directories and their contents.
+
+#To create a fruits.txt file and view the content:
+echo -e "Apple\nMango\nBanana\nCherry\nKiwi\nOrange\nGuava" > fruits.txt
+cat fruits.txt
+
+#To add content in devops.txt (One in each line):
+echo -e "Apple\nMango\nBanana\nCherry\nKiwi\nOrange\nGuava" > devops.txt
+
+#To show only the top three fruits from the file:
+head -n 3 fruits.txt
+
+#To show only the bottom three fruits from the file:
+tail -n 3 fruits.txt
+
+#To create another file Colors.txt and view the content:
+echo -e "Red\nPink\nWhite\nBlack\nBlue\nOrange\nPurple\nGrey" > Colors.txt
+cat Colors.txt
+
+#To find the difference between fruits.txt and Colors.txt file:
+diff fruits.txt Colors.txt
+This command will display the lines that differ between the two files.
