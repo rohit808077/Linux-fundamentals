@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Enter your ApplicationName"
+read ApplicationName
+
+sudo apt install $ApplicationName
+
+echo "your application is working fine"
