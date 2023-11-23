@@ -1,0 +1,15 @@
+echo "i will be complete #90 days of devops challenge #"
+
+name="Rohit Bhosale"
+
+echo "my name is ${name}"
+
+echo "Hello Rohit, please enter you age"
+
+read age
+
+echo "my age is ${age}"
+
+echo "Hi $1, how are you "
+
+
